@@ -6,6 +6,7 @@
 :root{
     --var-font-fam-h:"Amatic SC", sans-serif;
     --var-font-fam: "Roboto", sans-serif;
+    /* --var-font-size-normal:16px; */
     
 }
 html{
@@ -19,7 +20,7 @@ font-family: var(--var-font-fam-h);
 }
 p,li{
     font-size: 1.5rem;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
 }
 @media(max-width:786px){
     body{
