@@ -7,6 +7,7 @@
     --var-font-fam-h:"Amatic SC", sans-serif;
     --var-font-fam: "Roboto", sans-serif;
     /* --var-font-size-normal:16px; */
+    --var-color-primary:#CE1212
     
 }
 html{
@@ -22,6 +23,22 @@ p,li{
     font-size: 1.5rem;
     /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
 }
+.color-primary{
+    color: #CE1212!important;
+}
+.bg-btn{
+    background-color: #CE1212;
+}
+.bg-btn:hover{
+    background-color: rgb(56, 54, 55) !important;
+    color: #CE1212 !important;
+}
+.bg-primary{
+    background-color: #CE1212!important;
+}
+/* button{
+    background-color: var(--var-color-primary)!important  ;
+} */
 @media(max-width:786px){
     body{
         font-size: 12px !important;
@@ -51,3 +68,61 @@ p,li{
     padding: 8rem 0px!important;
     }
  }
+ .hero-image{
+    /* animation-name: 'up';
+    animation-timing-function: ease-out;
+    animation-duration: 1s;
+    animation-iteration-count: infinite; */
+  animation: up 2s ease-in-out infinite alternate-reverse both;
+
+ }
+ @keyframes up {
+  0% {
+    transform: translateY(10px);
+  }
+
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+html{
+    scroll-behavior: smooth;
+}
+.GoToTopButton{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    background-color:#CE1212 ;
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 150px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.GoToTopButton:hover i{
+    transform: translateY(3px);
+}
+.GoToTopButton:active{
+    transform: translateY(6px);
+}
+.GoToTopButton i{
+    color: white;
+    font-size: 20px;
+    transition: 0.2s;
+}

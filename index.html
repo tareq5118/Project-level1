@@ -8,16 +8,19 @@
       rel="stylesheet"
       href="./bootstrap-5.3.7-dist/css/bootstrap.min.css"
     />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="./css/all.min.css" />
     <link rel="stylesheet" href="./Style.css" />
   </head>
   <body>
     <!-- Header -->
     <header>
-      <nav class="navbar d-flex navbar-expand-lg bg-body-tertiary bg-white">
-        <div class="container">
-          <a class="navbar-brand" href="#">Yummy</a>
-          <button class="btn btn-primary">Book a Table</button>
+      <nav class="navbar  navbar-expand-lg bg-body-tertiary bg-white">
+        <div class="container ">
+          <div>
+          <a class="navbar-brand" href="#">Yummy <span class="text-danger ">.</span></a></div>
+          <div>
+          <button class="btn bg-btn text-white text-center ">Book a Table</button>
           <button
             class="navbar-toggler"
             type="button"
@@ -28,29 +31,26 @@
             aria-label="Toggle navigation"
           >
             <span class="navbar-toggler-icon"></span>
-          </button>
+          </button></div>
           <div class="collapse navbar-collapse  " id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav mx-auto  mb-lg-2 p- mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#">Menu</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#">Event</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#">Chefs</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#">Gallary</a>
               </li>
               <li class="nav-item dropdown">
                 <a
@@ -85,16 +85,17 @@
               class="hero-content my-5 d-flex flex-column justify-content-center w-50 w-sm-100"
               style="width: 48%"
             >
-              <h1 style="font-size: 4rem">
+              <h1 data-aos="fade-up"style="font-size: 4rem">
                 Enjour your healthy <br />Delaction food
               </h1>
-              <p class="mb-4">
+              <p data-aos="fade-up"class="mb-4">
                 We are team of talented designers making websites with Bootstrap
               </p>
-              <div>
-                <button class="btn btn-primary my-4">Book a table</button>
+              <div data-aos="fade-up"
+data-aos="fade-up">
+                <button class="btn bg-btn text-white my-4">Book a table</button>
 
-                <button class="btn">
+                <button class="btn ">
                   <i
                     class="fa-regular fa-circle-play fa-lg"
                     style="color: #ff0505"
@@ -117,47 +118,48 @@
       </div>
       <!-- SEction About As -->
 
-      <section class="about-as py-5">
+      <section class="about-as  py-5"data-aos="fade-up"
+data-aos="fade-up">
         <div class="container">
-          <div class="title text-center pb-5">
+          <div data-aos="fade-up"class="title text-center pb-5">
             <p class="fs-6">About Us</p>
             <h2 class="display-4">
               Learn More <span style="color: red">About Us</span>
             </h2>
           </div>
           <!-- <div class="d-flex justify-content-between gap-4"> -->
-          <div class="row ">
+          <div data-aos="fade-up"class="row ">
             <div class="col-sm-12 col-md-7 col-lg-7">
-              <img class="img-fluid" src="./imges/about.jpg" alt="" />
+              <img class="img-fluid mb-4" src="./imges/about.jpg" alt="" />
               <div
                 class="book-table border border-5 border-danger text-center mt-4"
               >
-                <h3>book a table</h3>
-                <p style="color: red">+963955332315</p>
+                <h3 class="fs-2 mt-2 fw-bold">book a table</h3>
+                <p class="fs-4 lh-base color-primary " style="color: red">+963 955332315</p>
               </div>
             </div>
             <div class="content-about d-flex flex-column col ">
-              <p>
+              <p class="fs-6 lh-lg">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque,
                 quasi doloribus velit blanditiis error maiores ipsum porro id
                 asperiores. Distinctio nostrum veniam deleniti
               </p>
               <ul class="ps-0">
-                <li class="list-unstyled fs-5">
+                <li class="list-unstyled lh-lg fs-5">
                   <i
                     class="fa-sharp fa-solid fa-circle-check pe-2"
                     style="color: #e60f0f"
                   ></i
                   >text dsfkwefk sfd,lwf lm,dfwlmf ,welfm
                 </li>
-                <li class="list-unstyled fs-5">
+                <li class="list-unstyled lh-lg fs-5">
                   <i
                     class="fa-sharp fa-solid fa-circle-check pe-2"
                     style="color: #e60f0f"
                   ></i
                   >frlomcsl ,omdac olmw ,d,olomc
                 </li>
-                <li class="list-unstyled fs-5">
+                <li class="list-unstyled lh-lg fs-5">
                   <i
                     class="fa-sharp fa-solid fa-circle-check pe-2"
                     style="color: #e60f0f"
@@ -166,7 +168,7 @@
                 </li>
               </ul>
 
-              <p>
+              <p class="fs-6 1h-lg">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Consequatur aspernatur maxime eaque repudiandae porro autem
                 quidem fuga nulla veniam id? Laborum, maxime perspiciatis
@@ -199,48 +201,48 @@
         <div class="container ">
           <div class="row align-items-sm-center  gap-5 py-3">
             <div
-              class="col-xl-4 col-md-3 col-sm-12 box-why bg-danger d-flex flex-column p-3"
+              class="col-xl-4 col-md-3 col-sm-12 box-why bg-primary text-white d-flex flex-column p-3"
             >
-              <p class="display-5">Why Choose <br />Yummy</p>
-              <p>
+              <p class="display-6 fw-bolder mt-2">Why Choose <br />Yummy</p>
+              <p class="fs-4 lh-base">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est
                 numquam exercitationem ut corrupti, similique illo voluptates,
                 nemo qui voluptas assumenda omnis distinctio magnam ipsam animi
                 in? Minus exercitationem vitae officia!
               </p>
-              <button class="btn btn-light rounded-4 mb-2 align-self-center">
+              <button class="btn text-light btn-light bg-transparent bg-opacity-50 rounded-4 mb-2 px-4 align-self-center">
                 Learn More
               </button>
             </div>
             <div
-              class="col-12 col-xl-2 col-md-3 col-sm-12 box-Coporise d-flex flex-column align-items-center text-center justify-content-center ps-4 pt-5 col bg-white"
+              class="col-12 col-xl-2 col-md-3 col-sm-12 box-Coporise d-flex flex-column align-items-center text-center justify-content-center p-4 col bg-white"
             >
               <i class="fa fa-phone pb-4" aria-hidden="true"></i>
               <!-- <i class="fa-duotone pb-4 fa-regular fa-clipboard-list-check fa-sm" style="--fa-primary-color: #e93001; --fa-secondary-color: #ffffff;"></i> -->
-              <p class="fs-3">Coprice volupteates office elumsmode</p>
-              <p>
+              <p class="fs-5 lh-lg fw-bold">Coprice volupteates office elumsmode</p>
+              <p class="fs-6 lh-base">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 Impedit, ab eos? Incidunt aliquam voluptatibus accusamus.
                 Ratione minus fugiat
               </p>
             </div>
             <div
-              class="col-12 col-xl-2 col-md-3 col-sm-12 box-Coporise d-flex flex-column align-items-center text-center justify-content-center ps-4 pt-5 col bg-white"
+              class="col-12 col-xl-2 col-md-3 col-sm-12 box-Coporise d-flex flex-column align-items-center text-center justify-content-center p-4 col bg-white"
             >
               <i class="fa fa-phone pb-4" aria-hidden="true"></i>
-              <p class="fs-3">Coprice volupteates office elumsmode</p>
-              <p>
+              <p class="fs-5 lh-lg fw-bold">Coprice volupteates office elumsmode</p>
+              <p class="fs-6 lh-base">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 Impedit, ab eos? Incidunt aliquam voluptatibus accusamus.
                 Ratione minus fugiat
               </p>
             </div>
             <div
-              class="col-12 col-xl-2 col-md-3 col-sm-12 box-Coporise d-flex flex-column align-items-center text-center justify-content-center ps-4 pt-5 col bg-white"
+              class="col-12 col-xl-2 col-md-3 col-sm-12 box-Coporise d-flex flex-column align-items-center text-center justify-content-center p-4 col bg-white"
             >
               <i class="fa fa-phone pb-4" aria-hidden="true"></i>
-              <p class="fs-3">Coprice volupteates office elumsmode</p>
-              <p>
+              <p class="fs-5 lh-lg fw-bold">Coprice volupteates office elumsmode</p>
+              <p class="fs-6 lh-base">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 Impedit, ab eos? Incidunt aliquam voluptatibus accusamus.
                 Ratione minus fugiat
@@ -255,20 +257,21 @@
         <div class="container p-lg-5">
           <div class="row g-5 gx-sm-5 text-center text-white fw-bold fs-4">
             <div class="col-12 col-xl-3 col-md-3 col-sm-12">
-              <p class="mb-0">232</p>
-              <span>client</span>
+                  <i class="bi bi-clipboard-data    "></i>
+              <p class="mb-0  fs-1 lh-lg">232</p>
+              <span  class="fs-5 lh-1 text-light fw-medium " >client</span>
             </div>
             <div class="col-12 col-xl-3 col-md-3 col-sm-12">
-              <p class="mb-0">232</p>
-              <span>client</span>
+              <p class="mb-0  fs-1 lh-lg">521</p>
+              <span class="fs-5 lh-1 text-light fw-medium" >Project</span>
             </div>
             <div class="col-12 col-xl-3 col-md-3 col-sm-12">
-              <p class="mb-0">232</p>
-              <span>client</span>
+              <p class="mb-0  fs-1 lh-lg">1453</p>
+              <span class="fs-5 lh-1 text-light fw-medium" >Hours of support</span>
             </div>
             <div class="col-12 col-xl-3 col-md-3 col-sm-12">
-              <p class="mb-0">232</p>
-              <span>client</span>
+              <p class="mb-0  fs-1 lh-lg">32</p>
+              <span class="fs-5 lh-1 text-light fw-medium" > workors</span>
             </div>
           </div>
         </div>
@@ -276,13 +279,13 @@
       </section>
 
       <!-- start section our menu -->
-      <section class="our-menu">
+      <section class="our-menu ">
         <div class="container">
           <div class="title text-center pb-5">
-            <p class="fs-6">Our Menu</p>
-            <h2 class="display-4 text-uppercase">
+            <p class="fs-6 lh-1">Our Menu</p>
+            <h2 class="display-4 lh-lg text-uppercase">
               Check Our
-              <span style="color: red"
+              <span class="color-primary"
                 ><br class="d-lg-none" />
                 Yummy Menu</span
               >
@@ -296,7 +299,7 @@
                 alt="menue1"
               />
               <p class="fs-3 m-0">Est Eligendi</p>
-              <span class="mb-1">Lorem,deren,tratator,filade,nahard</span>
+              <span class="mb-1 text-dark-emphasis lh-1 ">Lorem,deren,tratator,filade,nahard</span>
               <span class="fw-bold fs-3" style="color: red">$8.95</span>
             </div>
             <div class="card-menu col-lg-4 col-sm-12 col-12 d-flex flex-column align-items-center">
@@ -306,7 +309,7 @@
                 alt="menue1"
               />
               <p class="fs-3 m-0">Est Eligendi</p>
-              <span class="mb-1">Lorem,deren,tratator,filade,nahard</span>
+              <span class="mb-1 text-dark-emphasis lh-1">Lorem,deren,tratator,filade,nahard</span>
               <span class="fw-bold fs-3" style="color: red">$8.95</span>
             </div>
             <div class="card-menu col-lg-4 col-sm-12 col-12 d-flex flex-column align-items-center">
@@ -316,7 +319,7 @@
                 alt="menue1"
               />
               <p class="fs-3 mt-3">Est Eligendi</p>
-              <span class="mb-1">Lorem,deren,tratator,filade,nahard</span>
+              <span class="mb-1 text-dark-emphasis lh-1">Lorem,deren,tratator,filade,nahard</span>
               <span class="fw-bold fs-3" style="color: red">$8.95</span>
             </div>
           <!-- </div> -->
@@ -328,7 +331,7 @@
                 alt="menue1"
               />
               <p class="fs-3 m-0 mt-3">Est Eligendi</p>
-              <span class="mb-1">Lorem,deren,tratator,filade,nahard</span>
+              <span class="mb-1 text-dark-emphasis lh-1">Lorem,deren,tratator,filade,nahard</span>
               <span class="fw-bold fs-3 " style="color: red">$8.95</span>
             </div>
             <div class="card-menu col-lg-4 col-sm-12 col-12 d-flex flex-column align-items-center">
@@ -338,7 +341,7 @@
                 alt="menue1"
               />
               <p class="fs-3 m-0">Est Eligendi</p>
-              <span class="mb-1">Lorem,deren,tratator,filade,nahard</span>
+              <span class="mb-1 text-dark-emphasis lh-1">Lorem,deren,tratator,filade,nahard</span>
               <span class="fw-bold fs-3" style="color: red">$8.95</span> 
             </div>
             <div class="card-menu col-lg-4 col-sm-12 col-12 d-flex flex-column align-items-center">
@@ -348,12 +351,12 @@
                 alt="menue1"
               />
               <p class="fs-3 m-0">Est Eligendi</p>
-              <span class="mb-1">Lorem,deren,tratator,filade,nahard</span>
+              <span class="mb-1 text-dark-emphasis lh-1">Lorem,deren,tratator,filade,nahard</span>
               <span class="fw-bold fs-3" style="color: red">$8.95</span>
             </div>
           </div>
           </div>
-        </div>
+      
       </section>
       <!-- end  section our menu -->
       <!-- start section testiomonial -->
@@ -388,7 +391,7 @@
                   style="color: #e0190b"
                 ></i>
               </p>
-              <h3>Joun Laroun</h3>
+              <h3 class="fs-4 fw-bolder">Joun Laroun</h3>
 
               <h4 class="text-uppercase">entepereneuter</h4>
               <div class="stars d-flex">
@@ -446,9 +449,9 @@
                 alt="Chefs Proffesional"
               />
               <div class="card-text bg-white text-center">
-                <p class="fs-2 fw-bold ">Essam msouti</p>
-                <span class="fs-6">Master Chefs</span>
-                <p>
+                <p class="fs-3 fw-bold mt-2">Essam msouti</p>
+                <span class="fs-6 text-dark-emphasis">Master Chefs</span>
+                <p class="fs-5 lh-lg">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
                   nisi delectus soluta, voluptatibus vero dignissimos illum non
                   sit sunt cumque assumenda animi impedit repellendus
@@ -463,9 +466,9 @@
                 alt="Chefs Proffesional"
               />
               <div class="card-content bg-white text-center">
-                <p class="fs-2 fw-bold ">Essam msouti</p>
-                <span class="fs-6">Master Chefs</span>
-                <p>
+                <p class="fs-2 fw-bold mt-2 ">Essam msouti</p>
+                <span class="fs-6 text-dark-emphasis">Patissier</span>
+                <p class="fs-5 lh-lg">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
                   nisi delectus soluta, voluptatibus vero dignissimos illum non
                   sit sunt cumque assumenda animi impedit repellendus
@@ -480,9 +483,9 @@
                 alt="Chefs Proffesional"
               />
               <div class="card-content bg-white text-center">
-                <p class="fs-2 fw-bold ">Essam msouti</p>
-                <span class="fs-6">Master Chefs</span>
-                <p>
+                <p class="fs-2 fw-bold mt-2 ">Essam msouti</p>
+                <span class="fs-6 text-dark-emphasis"> Cook</span>
+                <p class="fs-5 lh-lg pb-2">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
                   nisi delectus soluta, voluptatibus vero dignissimos illum non
                   sit sunt cumque assumenda animi impedit repellendus
@@ -498,7 +501,7 @@
           <div class="title text-center ">
             <p class="fs-6 text-uppercase mb-3">Book A Table</p>
             <h2 class="display-4 text-uppercase">
-              Book Your<span style="color: red">Stay With us</span>
+              Book Your <span style="color: red">Stay With us</span>
             </h2>
           </div>
           <div class="d-flex flex-lg-nowrap flex-wrap  bg-light my-5">
@@ -541,7 +544,7 @@
               </div>
 
               <div class="text-center my-3">
-                <button class="btn bg-danger text-bg-dark" type="submit">Book a Table</button>
+                <button class="btn bg-danger text-bg-dark px-5 py-2" type="submit">Book a Table</button>
               </div>
             </form>
             </div>
@@ -557,7 +560,7 @@
             </h2>
           </div>
   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.840108180506!2d144.95373631590406!3d-37.81712797975167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d4c2b3d9dd1%3A0x627a7a7a7a7a7a7a!2sFederation%20Square!5e0!3m2!1sen!2sau!4v1623789671287!5m2!1sen!2sau" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      <div class="row gy-4 pt-5">
+      <div class="row gy-4 m-auto pt-5 container">
         <div class="bg-light col-lg-6 col-12 d-flex align-items-center gap-4 ">
             <i class="fa fa-phone " aria-hidden="true"></i>
             <div>
@@ -584,7 +587,8 @@
           </div>
         </div> 
         <!-- start form -->
-         <div class="py-5 bg-light">
+         <div class="container">
+         <div class="my-5 bg-light">
           <form action="#">
             <div class="row g-4">
               <div class="col-lg-6">
@@ -597,18 +601,80 @@
                 <textarea name="massage" class="form-control" placeholder="Massage" rows="5" cols=""></textarea>
               </div>
               <div class="text-center my-3">
-                <button class="btn bg-danger text-bg-dark text-capitalize border-4 " type="submit">Send Message</button>
+                <button class="btn bg-danger text-bg-dark text-capitalize border-4 py-2 px-5 " type="submit">Send Message</button>
               </div>
             </div>
           </form>
+         </div>
          </div>
         </div>
           </div>
       </section>
       
     </main>
-    
+    <footer class="bg-dark py-4">
+      <div class="container">
+<div class="d-lg-flex flex-lg-row justify-content-between flex-wrap   flex-sm-column  flex-lg-nowrap ">
+  <div class="d-flex gap-3 pb-3  pb-lg-0 text-white">
+    <i class="fa fa-phone mt-2" aria-hidden="true"></i>
+    <!-- <i class="fal fa-map-marker-alt" style="color: #9e2c1f;"></i> -->
+    <div>
+      <p class="fs-6">Addres</p>
+      <span>A108 Adam Street <br>New York NY 535022</span>
+    </div>
+  </div> 
+   <div class="d-flex gap-3 pb-3  pb-lg-0 text-white ">
+    <i class="fa fa-phone fs-6 mt-2" aria-hidden="true"></i>
+    <div >
+      <p class="fs-6">Opening Hours</p>
+      <span><strong>Mon sat:</strong>11AM -23PM <br><strong>Sunday:</strong>Closed</span>
+    </div>
+  </div> 
+   <div class="d-flex gap-3 pb-3  pb-lg-0 text-white">
+    <i class="fa fa-phone fs-6 mt-2" aria-hidden="true"></i>
+    <div>
+      <p class="fs-6">Call Us</p>
+      <span> +963 955332315</span>
+    </div>
+  </div>  
+  <div class="d-flex gap-3 pb-3  pb-lg-0 text-white">
+    <i class="fa fa-phone fs-6 mt-2 " aria-hidden="true"></i>
+    <div>
+      <p class="fs-6">Email Us</p>
+      <span> info@exmaple.com</span>
+    </div>
+  </div>
+</div>
+<div class="copy-rigth text-center mt-5  border-1 border-top border-danger">
+<p class="text-white mt-4 mb-0 text-capitalize fs-6">© Copy Right <span class="text-danger fw-bold">yummy</span>  All Rights Reserved</p>
+<p class="p-0 text-white text-capitalize fs-5">made by <span class="text-danger fs-4fw-bold">E.Tareq</span></p>
+</div>
+</div>
+    </footer>
+    <button onclick="ScrollToTop()" id="ttpbtn" class="GoToTopButton"><i class="fa-solid fa-chevron-up"></i></button>
 
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+    
+  </script>
+  <script>window.onscroll = function(){
+    scrollFunction();
+};
+
+function scrollFunction() {
+  var mybutton = document.getElementById("ttpbtn");
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+function ScrollToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0; 
+}</script>
     <script src="./bootstrap-5.3.7-dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
