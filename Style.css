@@ -85,6 +85,9 @@ p,li{
     transform: translateY(-10px);
   }
 }
+.nav-item a:hover{
+    color: var(--var-color-primary)!important;
+}
 
 
 
